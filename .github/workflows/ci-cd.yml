@@ -113,8 +113,7 @@ jobs:
             
       - name: Login SWR
         run: | 
-         sudo docker login -u sa-brazil-1@HST3U6VQ3721JJ0SFDXK -p 1777bcfbcefa938a6e5c0e05a38a624dc35c22cb4b7dc40e7d78bf90dc3db53c swr.sa-brazil-1.myhuaweicloud.com
- 
+         sudo docker login -u sa-brazil-1@HST3U4BJBH66GLEC7EAZ -p 29762a1f44131642776a91d6d0d4e1fa81fb4cd28e27aca29421bd30fc20d2a0 swr.sa-brazil-1.myhuaweicloud.com
       - name: Push Image
         run: |
           sudo docker push swr.sa-brazil-1.myhuaweicloud.com/experimental/system-eleic:latest
@@ -142,7 +141,7 @@ jobs:
             
       - name: Login SWR
         run: | 
-         sudo docker login -u sa-brazil-1@HST3U6VQ3721JJ0SFDXK -p 1777bcfbcefa938a6e5c0e05a38a624dc35c22cb4b7dc40e7d78bf90dc3db53c swr.sa-brazil-1.myhuaweicloud.com
+         sudo docker login -u sa-brazil-1@HST3U4BJBH66GLEC7EAZ -p 29762a1f44131642776a91d6d0d4e1fa81fb4cd28e27aca29421bd30fc20d2a0 swr.sa-brazil-1.myhuaweicloud.com
  
       - name: Push Image
         run: |
